@@ -70,6 +70,10 @@ export default class AddNewArticle extends Plugin {
 Aliases: ["${article.body.title}"]
 ---
 
+${article.body.canonicalLink}
+
+> ${article.body.metaDescription}
+
 `;
 
         let tags: string[] = [];
